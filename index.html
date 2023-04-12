@@ -4,15 +4,26 @@
 	<title>Login Form</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script.js"></script>
+
 </head>
 <body>
 	<h1>Login</h1>
 	<form>
-		<label for="username">Username:</label>
+		<label for="username">Username</label>
 		<input type="text" id="username" name="username">
-		<label for="password">Password:</label>
+		<label for="password">Password</label>
 		<input type="password" id="password" name="password">
 		<input type="submit" value="Submit" onclick="return validateForm()">
 	</form>
+
+	<div class="clock">
+		<div class="hours"></div>
+		<div class="minutes"></div>
+		<div class="seconds"></div>
+	</div>
+
+	<script src="script.js"></script>
+
+
 </body>
 </html>

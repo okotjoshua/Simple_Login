@@ -48,3 +48,33 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background-color: #e305be;
 }
+
+.clock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #282c34;
+	height: 200px;
+	width: 400px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+	position: relative;
+  }
+  
+  .clock div {
+	margin: 0 20px;
+  }
+  
+  .hours:before,
+  .minutes:before,
+  .seconds:before {
+	content: ":";
+	color: #fff;
+  }
+
+  
+  
+  
